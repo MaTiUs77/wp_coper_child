@@ -1,0 +1,80 @@
+/*
+ Theme Name:   Newspaper Child
+ Theme URI:    http://devalliance.com
+ Description:  Newspaper tagDiv Child Theme
+ Author:       devalliance
+ Author URI:   http://devalliance.com.ar
+ Template:     Newspaper
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  newspaper
+*/
+@import url("../Newspaper/style.css");
+
+@media (min-width: 768px) {
+	.header-search-wrap #td-header-nightmode-button .td-icon-search, .header-search-wrap #td-header-nightmode-button img:before {
+		line-height: 80px;
+	}
+}
+@media (max-width: 767px) {
+	#td-header-search-button-mob {
+		display: inherit !important;
+	}
+}
+.header-search-wrap { right: 15px !important;  }
+.td-search-btns-wrap ul { list-style: none; margin: 0px; }
+.td-search-btns-wrap ul li { display: inline; padding: 0px; margin: 0px; }
+
+.night  {
+	background-color: #3B3C39 !important;
+}
+.night * { 
+	color: #eee !important;
+}
+.night .td-header-wrap .td-header-top-menu-full, 
+.night .td-header-wrap .top-header-menu .sub-menu {
+	background-color: #2F1D00 !important;
+}
+.night .td-trending-now-title {
+	background-color: #2F1D00 !important;
+	color: #eee !important;
+}
+
+.night .td-boxed-layout .td-header-style-3 .td-header-menu-wrap,
+.night .td-boxed-layout .td-header-style-4 .td-header-menu-wrap, 
+.night .td-header-style-3 .td_stretch_content .td-header-menu-wrap, 
+.night .td-header-style-4 .td_stretch_content .td-header-menu-wrap {
+	background-color: #3B3C39 !important; 
+	border: 5px solid red;
+}
+
+.night #PDI_container9937136 .pds-box {
+	background-color: transparent !important;
+}
+.night #PDI_container9937136 .pds-box a span {
+	color: #333333 !important;
+}
+
+.night .field-wrap>div input[type=checkbox], 
+.night .field-wrap button, 
+.night .field-wrap input[type=button], 
+.night .field-wrap input[type=submit] {
+	color: #3B3C39 !important;
+}
+
+.night .td-container-wrap {
+	background-color: #3B3C39 !important;
+}
+.night .post {
+	background-color: #3B3C39 !important;
+}
+
+.night h1, .night h2, .night h3, .night h4, .night h5, .night h6 {
+	color: #eee !important;
+}
+
+.night h1 > a, .night h2 > a, .night h3 > a, .night h4 > a, .night h5 > a, .night h6 > a {
+	color: #eee !important;
+}
